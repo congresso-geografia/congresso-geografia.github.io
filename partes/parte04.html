@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Inovações do 5G</title>
+    <style>
+        @charset "utf-8";
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: linear-gradient(90deg, #071a40f4 20.62%, #465EA6 79.38%);
+        }
+
+        .titulo-principal {
+            text-align: center;
+            font-family: 'Righteous', sans-serif;
+            color: white;
+            margin: 20px auto;
+        }
+
+        .linha {
+            border: 0.4px solid white;
+        }
+
+        .inicio-meta {
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            margin: 30px 0px 30px 0px;
+        }
+
+        .meta-oqe {
+            text-indent: 50px;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .expl-meta {
+            color: whitesmoke;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-left: 70px;
+            text-align: justify;
+        }
+
+        .oq-5g-meta {
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            margin: 15px 0px 15px 0px;
+            text-indent: 50px;
+
+        }
+
+        .transmissao-dados {
+            color: whitesmoke;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-left: 70px;
+            text-align: justify;
+        }
+
+        .revolucao-aparelhos {
+            color: whitesmoke;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-left: 70px;
+            text-align: justify;
+        }
+
+        .imagens {
+            text-align: center;
+            display: block;
+            margin: 15px;
+        }
+
+        .metaverso-img {
+            width: 300px;
+        }
+
+        .linha2 {
+            border: 0.4px solid white;
+            margin: 25px;
+        }
+
+        .inicio-cripto {
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            margin: 30px 0px 30px 0px;
+        }
+
+        .cripto-oqe {
+            text-indent: 50px;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .expl-cripto {
+            color: whitesmoke;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-left: 70px;
+            text-align: justify;
+        }
+
+        .cripto-5g {
+            margin-top: 15px;
+            text-indent: 50px;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .imagem2 {
+            display: block;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .cripto-img {
+            width: 300px;
+        }
+
+        .inicio-bolsa {
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            margin: 30px 0px 30px 0px;
+        }
+
+        .bolsa-oqe {
+            text-indent: 50px;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .expl-bolsa {
+            color: whitesmoke;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-left: 70px;
+            text-align: justify;
+        }
+
+        .bolsa-5g {
+            text-indent: 50px;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            margin: 10px 0px 10px 0px;
+        }
+
+        .imagem3 {
+            display: block;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .bolsa-img {
+            width: 300px;
+        }
+
+        .inicio-iot {
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            margin: 30px 0px 30px 0px;
+        }
+
+        .iot-oqe {
+            text-indent: 50px;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .expl-iot {
+            color: whitesmoke;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-left: 70px;
+            text-align: justify;
+        }
+
+        .iot-5g {
+            text-indent: 50px;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            margin: 15px 0px;
+        }
+
+        .imagem4 {
+            display: block;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .img4 {
+            width: 300px;
+        }
+
+        @media (max-width: 600px) {
+            .inicio-meta {
+                margin: 15px 0px 15px 0px;
+            }
+
+            .meta-oqe {
+                text-indent: 10px;
+            }
+
+            .expl-meta {
+                margin-left: 20px;
+            }
+
+            .oq-5g-meta {
+                text-indent: 10px;
+                /* text-align: ; */
+            }
+
+            .transmissao-dados {
+                margin-left: 20px;
+            }
+
+            .revolucao-aparelhos {
+                margin-left: 20px;
+            }
+
+            .inicio-cripto {
+                margin: 15px 0px 15px 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo-principal">Inovações do 5G</h1>
+    </header>
+    <div class="linha"></div>
+    <main>
+        <div class="meta5g">
+            <h2 class="inicio-meta">Metaverso e o 5G</h2>
+            <h3 class="meta-oqe">Metaverso: o que é?</h3>
+            <p class="expl-meta">
+                Metaverso é um conceito que junta a realidade aumentanda (realidade virtual) e ambientes virtuais. <br>
+                A ideia do Metaverso foi criada em 1992, em uma obra de Neal Stephenson chamada de "Snow Crash",que
+                sincroniza realidade e ficção através de um jogo onde um entregador de pizza na vida real é um samurai
+                no universo virtual chamado de Metaverso.<br>
+                É possivel realizar varias tarefas no Metaverso, algumas delas são: Ter reuniões, comprar Criptomoedas e
+                fazer compras.
+            </p>
+            <!-- <img src="../imagens/metaverso.jpg" alt="imagem o metaverso" class="img-meta"> -->
+            <h3 class="oq-5g-meta">Com o quê o 5G afeta no Metaverso?</h3>
+            <p class="expl-meta">
+                O 5G pode ajudar em muitas coisas no Metaverso, algumas delas são:
+            </p>
+            <p class="transmissao-dados">Transmissão dados. Qualquer coisa que você fizer na internet exige transmissão
+                de dados.(Você envia dados da sua máquina e o host{Servidor} devolve com outros resultados.) Com o 5G a
+                velocidade da transmissão de dados vai aumentar muito.</p>
+            <p class="revolucao-aparelhos">Para entrar no Metaverso é preciso um portal de entrada, né? Os aparelhos que
+                usamos no dia a dia são esse portal que usamos para entrar em uma nova realidade! E muito se relaciona o
+                5G à conexão de aparelhos móveis, mas a verdade é que muitos outros equipamentos como notebook podem
+                ganhar muito com a inovação!
+                Essa revolução que o 5G está trazendo vai beneficiar muito as empresas, permitindo a criação de mundos
+                complexos para que as pessoas entrem e façam parte do Metaverso e a curiosidade para ver o que vem por
+                aí está nas alturas!</p>
+
+                <div class="imagens">
+                    <img src="../imagens/metaverso.webp" alt="metaverso" class="metaverso-img">
+                </div>
+        </div>
+
+        <div class="linha2"></div>
+
+        <div class="criptomoedas">
+            <h2 class="inicio-cripto">Criptomoedas e o 5G</h2>
+            <h3 class="cripto-oqe">O que é criptomoeda?</h3>
+            <p class="expl-cripto">
+                Criptomoeda é um sistema de pagamento digital que não depende de bancos para verificar e confirmar
+                transações. É um sistema ponto a ponto que permite a qualquer pessoa enviar e receber pagamentos de
+                qualquer lugar. Em vez do dinheiro físico transportado e trocado no mundo real, os pagamentos em
+                criptomoeda existem unicamente como valores digitais em um banco de dados online que documenta as
+                transações específicas. Ao transferir fundos de criptomoeda, as transações são registradas em um livro
+                contábil público. A criptomoeda é armazenada em carteiras digitais.
+            </p>
+            <h3 class="cripto-5g">5G e as criptomoedas</h3>
+            <p class="expl-cripto">
+                O 5G também deve dar mais agilidade às mineradoras de criptomoedas, que estão implantando novas
+                ferramentas e tecnologias para operações remotas e maior produtividade. Mas tudo isso depende da
+                integração bem-sucedida da automação e da troca de dados, o que, por sua vez, requer conectividade
+                confiável.
+            </p>
+
+            <div class="imagem2">
+                <img src="../imagens/criptomoeda.jpeg" alt="" class="cripto-img">
+            </div>
+        </div>
+
+        <div class="linha2"></div>
+
+        <div class="bolsa-valores">
+            <h2 class="inicio-bolsa">Bolsa de valores e o 5G</h2>
+            <h3 class="bolsa-oqe">O que é bolsa de valores?</h3>
+            <p class="expl-bolsa">
+                A bolsa de valores é um ambiente de negociação de ação, títulos, fundos, contratos,
+                commodities e etc.</p>
+            <h3 class="bolsa-5g">Bolsa de vaores e o 5G</h3>
+            <p class="expl-bolsa">
+                Com a chegada do 5G, pode afetar positivamente a bolsa de valores.
+                Pois o 5G irá valorizar ações de telecomunicações que usam e usarão o 5G.
+                Causando uma subida na economia.
+            </p>
+
+            <div class="imagem3">
+                <img src="../imagens/bolsa-valroes.jpeg" alt="" class="bolsa-img">
+            </div>
+        </div>
+
+        <div class="linha2"></div>
+
+        <div class="iot">
+            <h2 class="inicio-iot">Internet das Coisas e o 5G</h2>
+            <h3 class="iot-oqe">O que é IoT?</h3>
+            <p class="expl-iot">A Internet das Coisas (IoT) descreve a rede de objetos físicos incorporados a sensores,
+                software e outras tecnologias com o objetivo de conectar e trocar dados com outros dispositivos e
+                sistemas pela internet. Esses dispositivos variam de objetos domésticos comuns a ferramentas industriais
+                sofisticadas.
+            </p>
+            <h3 class="iot-5g">Internet das coisa e o 5G</h3>
+            <p class="expl-iot">
+                A tecnologia sem fio 5G destina-se a fornecer velocidades mais altas de pico de dados de vários Gbps,
+                latência ultra baixa, mais confiabilidade, capacidade massiva de rede, maior disponibilidade e uma
+                experiência mais uniforme para mais usuários. Maior desempenho e eficiência aprimorada possibilitam
+                novas experiências de usuário e conectam novos setores.
+
+                O sucesso comercial da Internet das Coisas está intrinsecamente ligado ao desempenho da rede ao qual os
+                dispositivos são conectados. Com o 5G, espera-se que as velocidades de transferência de dados sejam
+                significativamente maiores, tendo um impacto direto na comunicação entre dispositivos, smartphones,
+                tablets e softwares de IoT.
+
+                A expectativa é de que a rede 5G seja 10 vezes mais rápida que as redes LTE atuais. Esse aumento na
+                velocidade ajuda a reduzir a latência e melhorar a velocidade geral na qual os dispositivos inteligentes
+                enviam e recebem dados.
+
+                Além do aumento da velocidade, as redes 5G operam de maneira mais confiável, criando conexões mais
+                estáveis e seguras. Ter condições de rede confiáveis ​​e estáveis ​​é extremamente importante para
+                qualquer dispositivo IoT, mas especialmente para dispositivos conectados que dependem de atualizações em
+                tempo real, como câmeras de segurança e outros sistemas de monitoramento.
+            </p>
+
+            <div class="imagem4">
+                <img src="../imagens/imagem-iot.png" alt="" class="img4">
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

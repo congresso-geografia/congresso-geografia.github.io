@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(90deg, #071a40f4 20.62%, #465EA6 79.38%);
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Sarala', sans-serif;
+    font-size: 45px;
+    margin: 40px;
+}
+
+.linha {
+    margin-bottom: 30px;
+    border-top: 1.4px solid white;
+}
+
+h3 {
+    color: white;
+    width: 300px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 29px;
+    margin-left: 90px;
+}
+
+.h3-v {
+    margin-bottom: 30px;
+}
+
+h3:hover {
+    margin-left: 150px;
+    color: antiquewhite;
+    transition-duration: 0.7s;
+}
+
+.linha-2 {
+    border: 0.4px solid white;
+
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+a {
+    color: white;
+    font-family: 'Sarala', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 25px;
+    transition-duration: 0.3s;
+}

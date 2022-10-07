@@ -1,0 +1,237 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-image: linear-gradient(90deg, #071a40f4 20.62%, #465EA6 79.38%);
+}
+
+.titulo-principal {
+   text-align: center;
+   color: white;
+   font-family: 'Righteous', sans-serif;
+   font-size: 32px;
+   margin: 20px;
+}
+
+.linha-topo {
+   border: 0.4px solid white
+}
+
+.all-div {
+   max-width: 850px;
+   margin: auto;
+}
+
+.parte1 {
+   text-align: center;
+   margin: 25px;
+}
+
+.participante1 {
+   text-align: center;
+   color: white;
+   font-family: 'Sarala', sans-serif;
+   font-size: 32px;
+}
+
+.parte1>.link1 {
+   display: none;
+}
+
+.parte1:hover>.link1 {
+   display: block;
+}
+
+.link1 {
+   color: white;
+   font-family: 'Sarala', sans-serif;
+}
+
+.parte2 {
+   text-align: center;
+   margin: 30px;
+}
+
+.participante2 {
+   text-align: center;
+   color: white;
+   font-family: 'Sarala', sans-serif;
+   font-size: 32px;
+}
+
+.parte2>.link2 {
+   display: none;
+}
+
+.parte2:hover>.link2 {
+   display: block;
+}
+
+.link2 {
+   color: white;
+   font-family: 'Sarala', sans-serif;
+}
+
+.parte3 {
+   text-align: center;
+   margin: 30px auto;
+
+}
+
+.participante3 {
+   text-align: center;
+   color: white;
+   font-family: 'Sarala', sans-serif;
+   font-size: 32px;
+   width: auto;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.parte3>.link3 {
+   display: none;
+}
+
+.parte3:hover>.link3 {
+   display: block;
+}
+
+.link3 {
+   color: white;
+   font-family: 'Sarala', sans-serif;
+}
+
+.parte4 {
+   text-align: center;
+   margin: 30px;
+}
+
+.participante4 {
+   text-align: center;
+   color: white;
+   font-family: 'Sarala', sans-serif;
+   font-size: 32px;
+}
+
+.parte4>.link4 {
+   display: none;
+}
+
+.parte4:hover>.link4 {
+   display: block;
+}
+
+.link4 {
+   color: white;
+   font-family: 'Sarala', sans-serif;
+}
+
+.parte5 {
+   text-align: center;
+   margin: 30px;
+}
+
+.participante5 {
+   text-align: center;
+   color: white;
+   font-family: 'Sarala', sans-serif;
+   font-size: 32px;
+}
+
+.parte5>.link5 {
+   display: none;
+}
+
+.parte5:hover>.link5 {
+   display: block;
+}
+
+.link5 {
+   color: white;
+   font-family: 'Sarala', sans-serif;
+}
+
+.linha-baixo {
+   border: 0.4px solid white;
+}
+
+footer {
+   text-align: center;
+   margin: 20px;
+}
+
+.link-volta {
+   color: white;
+   font-family: 'Sarala', sans-serif;
+   font-size: 20px;
+}
+
+
+
+
+@media (max-width: 800px) {
+   .parte1 {
+      width: auto;
+   }
+
+   .participante1 {
+      font-size: 24px;
+   }
+
+   .parte1>.link1 {
+      display: block;
+   }
+
+   .parte2 {
+      width: auto;
+   }
+
+   .participante2 {
+      font-size: 24px;
+   }
+
+   .parte2>.link2 {
+      display: block;
+   }
+
+   .parte3 {
+      width: auto;
+   }
+
+   .participante3 {
+      font-size: 24px;
+   }
+
+   .parte3>.link3 {
+      display: block;
+   }
+
+   .parte4 {
+      width: auto;
+   }
+
+   .participante4 {
+      font-size: 24px;
+   }
+
+   .parte4>.link4 {
+      display: block;
+   }
+
+   .parte5 {
+      width: auto;
+   }
+
+   .participante5 {
+      font-size: 24px;
+   }
+
+   .parte5>.link5 {
+      display: block;
+   }
+}
